@@ -1,25 +1,23 @@
-Here is your final, professional `README.md` using the permanent GitHub CDN links you provided. This is optimized for a clean look on your GitHub profile and Pages.
-
 ---
 
 # CineStream Ultra
 
-CineStream Ultra is a high-performance TV show discovery application built with Flutter. It utilizes the TVMaze REST API to deliver real-time content in a cinematic dark-themed interface, specifically optimized for Linux desktop environments like CachyOS.
+CineStream Ultra is a high-performance TV show discovery application built with Flutter. It utilizes the TVMaze REST API to deliver real-time content in a cinematic dark-themed interface, optimized for Linux desktop environments.
 
-## Application Preview
+## Output Preview
 
-| Dashboard View | Search & Metadata View |
+| Application Overview | Detail and Metadata View |
 | --- | --- |
-| <img src="[https://github.com/user-attachments/assets/729ce447-ea3d-43ee-b83b-7bf2d853f1ba](https://github.com/user-attachments/assets/729ce447-ea3d-43ee-b83b-7bf2d853f1ba)" width="450"/> | <img src="[https://github.com/user-attachments/assets/51947ec8-225d-468f-95c5-24c0c8d03ef6](https://github.com/user-attachments/assets/51947ec8-225d-468f-95c5-24c0c8d03ef6)" width="450"/> |
+|  |  |
 
 ## Output Description
 
 The application provides a fluid, high-resolution browsing experience for television media. Key visual and functional elements include:
 
-* **Cinematic Hero Grid**: A dual-column layout displaying high-definition posters with custom gradient overlays for maximum text legibility.
-* **Dynamic Metadata**: Real-time display of show titles, global ratings, and genre tags integrated into the base of each media card.
-* **Integrated Search**: A top-level search bar allowing for instant, low-latency filtering of the global show library.
-* **Premium Aesthetic**: A customized color palette featuring a deep-black background (`#050505`) and red-accented typography.
+* **Cinematic Hero Grid**: A dual-column layout displaying high-definition posters with custom gradient overlays for text legibility.
+* **Dynamic Metadata**: Real-time display of show titles, global ratings, and genre tags at the base of each media card.
+* **Integrated Search**: A top-level search bar allows users to filter the global library instantly with low-latency results.
+* **Dark-Mode Aesthetic**: A customized color palette featuring a deep-black background and red-accented typography for a premium streaming feel.
 
 ## Technical Specifications
 
@@ -29,11 +27,11 @@ The application provides a fluid, high-resolution browsing experience for televi
 | **Language** | Dart |
 | **Networking** | http ^1.1.0 |
 | **API** | TVMaze Public API |
-| **Environment** | CachyOS / Arch Linux |
+| **Target OS** | CachyOS / Arch Linux |
 
 ## Dependencies
 
-Include the following in your `pubspec.yaml` file:
+The following dependency must be included in your `pubspec.yaml` file:
 
 ```yaml
 dependencies:
@@ -47,7 +45,7 @@ dependencies:
 
 Ensure your environment is configured for Linux desktop development.
 
-1. **System Requirements**:
+1. **System Requirements (CachyOS/Arch)**:
 ```bash
 sudo pacman -S curl openssl libnm
 
@@ -71,8 +69,6 @@ flutter run -d linux
 
 ## Development Pattern
 
-The application implements a clean separation of concerns. The **Service Layer** manages asynchronous HTTP networking with custom headers for Linux compatibility, the **Model Layer** handles JSON serialization with null-safety, and the **UI Layer** manages state-driven rendering using `FutureBuilder`.
+The application implements a clean separation of concerns. The **Service Layer** manages asynchronous HTTP networking with custom headers for Linux compatibility, the **Model Layer** handles JSON serialization, and the **UI Layer** manages state-driven rendering using `FutureBuilder` for an asynchronous user interface.
 
 ---
-
-**Everything is now set. Would you like me to help you write a short LinkedIn post to showcase this project?**
