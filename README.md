@@ -1,21 +1,13 @@
 # CineStream Ultra
 
-CineStream Ultra is a high-performance TV show discovery application built with Flutter. It utilizes the TVMaze REST API to deliver real-time content in a cinematic dark-themed interface, optimized for Linux desktop environments.
+CineStream Ultra is a high-performance TV show discovery application built with Flutter. It utilizes the TVMaze REST API to deliver real-time content in a cinematic dark-themed interface, specifically optimized for Linux desktop environments.
 
-## Output Preview
+## Core Functionality
 
-| Application Overview | Detail and Metadata View |
-| --- | --- |
-|  |  |
-
-## Output Description
-
-The application provides a fluid, high-resolution browsing experience for television media. Key visual and functional elements include:
-
-* **Cinematic Hero Grid**: A dual-column layout displaying high-definition posters with custom gradient overlays for text legibility.
-* **Dynamic Metadata**: Real-time display of show titles, global ratings, and genre tags at the base of each media card.
-* **Integrated Search**: A top-level search bar allows users to filter the global library instantly with low-latency results.
-* **Dark-Mode Aesthetic**: A customized color palette featuring a deep-black background and red-accented typography for a premium streaming feel.
+* **REST API Integration**: Fetches show metadata and high-resolution imagery from the TVMaze public database.
+* **Real-time Filtering**: Implements a search algorithm to filter large datasets instantly via user input.
+* **Optimized Rendering**: Employs `GridView.builder` for lazy-loading to maintain high frame rates and low memory consumption.
+* **Data Modeling**: Converts raw JSON payloads into type-safe Dart objects with robust null-safety handling.
 
 ## Technical Specifications
 
@@ -25,7 +17,7 @@ The application provides a fluid, high-resolution browsing experience for televi
 | **Language** | Dart |
 | **Networking** | http ^1.1.0 |
 | **API** | TVMaze Public API |
-| **Target OS** | CachyOS / Arch Linux |
+| **Operating System** | CachyOS / Arch Linux |
 
 ## Dependencies
 
