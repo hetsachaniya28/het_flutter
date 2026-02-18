@@ -1,13 +1,29 @@
+That application looks excellent on your Linux desktop. The dark theme with the red accents is very sharp.
+
+To embed these images in your GitHub README, the most reliable way is to upload them to a folder in your repository (like `/screenshots`) and use relative links.
+
+Below is the updated, professional README that incorporates your specific screenshots and includes the required output description.
+
+---
+
 # CineStream Ultra
 
-CineStream Ultra is a high-performance TV show discovery application built with Flutter. It utilizes the TVMaze REST API to deliver real-time content in a cinematic dark-themed interface, specifically optimized for Linux desktop environments.
+CineStream Ultra is a high-performance TV show discovery application built with Flutter. It utilizes the TVMaze REST API to deliver real-time content in a cinematic dark-themed interface, optimized for Linux desktop environments.
 
-## Core Functionality
+## Output Preview
 
-* **REST API Integration**: Fetches show metadata and high-resolution imagery from the TVMaze public database.
-* **Real-time Filtering**: Implements a search algorithm to filter large datasets instantly via user input.
-* **Optimized Rendering**: Employs `GridView.builder` for lazy-loading to maintain high frame rates and low memory consumption.
-* **Data Modeling**: Converts raw JSON payloads into type-safe Dart objects with robust null-safety handling.
+| Application Overview | Detail and Metadata View |
+| --- | --- |
+|  |  |
+
+## Output Description
+
+The application provides a fluid, high-resolution browsing experience for television media. Key visual and functional elements include:
+
+* **Cinematic Hero Grid**: A dual-column layout displaying high-definition posters with custom gradient overlays for text legibility.
+* **Dynamic Metadata**: Real-time display of show titles, global ratings, and genre tags at the base of each media card.
+* **Integrated Search**: A top-level search bar allows users to filter the global library instantly with low-latency results.
+* **Dark-Mode Aesthetic**: A customized color palette featuring a deep-black background and red-accented typography for a premium streaming feel.
 
 ## Technical Specifications
 
@@ -17,7 +33,7 @@ CineStream Ultra is a high-performance TV show discovery application built with 
 | **Language** | Dart |
 | **Networking** | http ^1.1.0 |
 | **API** | TVMaze Public API |
-| **Operating System** | CachyOS / Arch Linux |
+| **Target OS** | CachyOS / Arch Linux |
 
 ## Dependencies
 
