@@ -1,5 +1,3 @@
----
-
 # CineStream Ultra
 
 CineStream Ultra is a high-performance TV show discovery application built with Flutter. It utilizes the TVMaze REST API to deliver real-time content in a cinematic dark-themed interface, optimized for Linux desktop environments.
@@ -70,5 +68,3 @@ flutter run -d linux
 ## Development Pattern
 
 The application implements a clean separation of concerns. The **Service Layer** manages asynchronous HTTP networking with custom headers for Linux compatibility, the **Model Layer** handles JSON serialization, and the **UI Layer** manages state-driven rendering using `FutureBuilder` for an asynchronous user interface.
-
----
